@@ -10,4 +10,8 @@ describe('String Calculator', function() {
 	it('should return number itself for a single number', function() {
 	expect(calculator.add('1')).toEqual(1);
 	});
+
+	it('should return sum of two numbers separated by comma', function() {
+	expect(calculator.add('1,2')).toEqual(3);
+});
 });
